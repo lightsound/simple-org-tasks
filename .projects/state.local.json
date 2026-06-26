@@ -27,6 +27,16 @@
       "redirectUrl": null,
       "requestedAt": "2026-06-26T13:37:09.325Z",
       "status": "complete"
+    },
+    "vercel": {
+      "accountRequestId": "facctrq_61UvyboQZN76fslue16P1qcRMgHN0ERws7GyANGC8F0i",
+      "configuration": {},
+      "linkedAt": "2026-06-26T14:22:44.849Z",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "redirectUrl": null,
+      "requestedAt": "2026-06-26T14:22:44.849Z",
+      "status": "complete"
     }
   },
   "resources": {

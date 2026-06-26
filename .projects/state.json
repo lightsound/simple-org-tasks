@@ -6,6 +6,9 @@
     },
     "turso": {
       "name": "Turso"
+    },
+    "vercel": {
+      "name": "Vercel"
     }
   },
   "resources": {
