@@ -1,0 +1,10 @@
+allowBuilds:
+  '@clerk/shared': set this to true or false
+  '@heroui-pro/react': set this to true or false
+  '@zowe/secrets-for-zowe-sdk': set this to true or false
+  esbuild: set this to true or false
+onlyBuiltDependencies:
+  - esbuild
+  - lightningcss
+  - '@clerk/shared'
+  - '@heroui-pro/react'

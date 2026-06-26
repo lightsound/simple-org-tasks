@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "project": {
+    "initializedAt": "2026-06-26T13:36:22.801Z",
+    "merchantDisplayName": null,
+    "merchantId": "acct_1H80g3E7schPjlY5",
+    "projectId": "project_61Uvxt0K782y1aASW16P1qcRMgHN0ERws7GyANGC8RSS",
+    "projectName": "simple-org-tasks"
+  },
+  "providers": {
+    "clerk": {
+      "accountRequestId": "facctrq_61UvxtD8byN7TFhNh16P1qcRMgHN0ERws7GyANGC8L4C",
+      "configuration": {},
+      "linkedAt": "2026-06-26T13:36:37.471Z",
+      "providerId": "prvdr_61UGOeSW4e0T9Etwn537w",
+      "providerName": "Clerk",
+      "redirectUrl": null,
+      "requestedAt": "2026-06-26T13:36:37.471Z",
+      "status": "complete"
+    },
+    "turso": {
+      "accountRequestId": "facctrq_61UvxtkYyuT3Rw3Ll16P1qcRMgHN0ERws7GyANGC8V3o",
+      "configuration": {},
+      "linkedAt": "2026-06-26T13:37:09.325Z",
+      "providerId": "prvdr_61UGLtrGjcXK8rTq15RWq",
+      "providerName": "Turso",
+      "redirectUrl": null,
+      "requestedAt": "2026-06-26T13:37:09.325Z",
+      "status": "complete"
+    }
+  },
+  "resources": {
+    "clerk-auth": {
+      "configuration": {
+        "app_name": "simple-org-tasks"
+      },
+      "createdAt": "2026-06-26T13:36:40.597Z",
+      "lastRevealedAt": "2026-06-26T13:36:41.050Z",
+      "lastStatus": "complete",
+      "name": "clerk-auth",
+      "providerId": "prvdr_61UGOeSW4e0T9Etwn537w",
+      "providerName": "Clerk",
+      "resourceId": "fres_61UvxtGzsdrGrLD0E16P1qcRMgHN0ERws7GyANGC84GW",
+      "serviceId": "auth"
+    },
+    "simple-org-tasks": {
+      "configuration": {
+        "name": "simple-org-tasks",
+        "location": "aws-ap-northeast-1"
+      },
+      "createdAt": "2026-06-26T13:37:12.895Z",
+      "lastRevealedAt": "2026-06-26T13:37:13.394Z",
+      "lastStatus": "complete",
+      "name": "simple-org-tasks",
+      "providerId": "prvdr_61UGLtrGjcXK8rTq15RWq",
+      "providerName": "Turso",
+      "resourceId": "fres_61UvxtmTgysqC8LWu16P1qcRMgHN0ERws7GyANGC8Clk",
+      "serviceId": "database"
+    }
+  }
+}
